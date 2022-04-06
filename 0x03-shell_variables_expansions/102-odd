@@ -1,2 +1,2 @@
 #!/bin/bash
-sed -n 1~2p
+xargs -n2 | cut -d ' ' -f1
